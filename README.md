@@ -72,4 +72,4 @@ uvicorn app.main:app --reload
 ```
 
 6. **Access the App**:
-Open your browser and navigate to http://127.0.0.1:8000.
+Open your browser and navigate to http://127.0.0.1:8000.# vetty-crypto-api
