@@ -4,6 +4,30 @@
 
 Vetty Crypto API is a FastAPI-based application that provides cryptocurrency market data using the CoinGecko API.
 
+Directory structure:
+└── rpkumar09-vetty-crypto-api/
+    ├── README.md
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── pyproject.toml
+    ├── requirements.txt
+    ├── app/
+    │   ├── main.py
+    │   ├── core/
+    │   │   ├── config.py
+    │   │   └── security.py
+    │   ├── models/
+    │   │   └── schemas.py
+    │   ├── routers/
+    │   │   ├── coins.py
+    │   │   └── health.py
+    │   └── services/
+    │       └── coingecko.py
+    └── tests/
+        ├── conftest.py
+        └── test_api.py
+
+
 ## Features
 
 - Fetch cryptocurrency market data
