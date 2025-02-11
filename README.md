@@ -4,6 +4,8 @@
 
 Vetty Crypto API is a FastAPI-based application that provides cryptocurrency market data using the CoinGecko API.
 
+![image](https://github.com/user-attachments/assets/fbb947c7-a10c-4013-a608-9b2da768cddd)
+
 ## Features
 
 - Fetch cryptocurrency market data
